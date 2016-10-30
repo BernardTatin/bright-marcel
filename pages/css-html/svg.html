@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Pragma" content="no-cache" />
+        <meta http-equiv="Expires" content="-1" />
+        <meta charset='utf-8' />
+    </head>
+    <body>
+        <p>Voici un exemple d'affichage de <em>SVG</em> avec la balise <em>img</em> (<em>i.e.</em> l'image est sur le serveur):
+        </p>
+        <img src='pages/css-html/poem-exemple.svg' alt='une image en SVG' />
+        <p>Maintenant, avec la balise <em>svg</em>:</p>
+        <svg width="400px" height="100px" xml:lang="fr"
+             xmlns="http://www.w3.org/2000/svg"
+             xmlns:xlink="http://www.w3.org/1999/xlink">
+        <title>Un exemple de SVG</title>
+        <desc>C'est un test!</desc>
+        <text
+            xml:space="preserve"
+            style="font-size:18px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:baron_neueblack;"
+            x="24.193359"
+            y="47.71706" >tiré d'un fichier Inkscape!</text>
+        </svg>
+        <p>Et le top:</p>
+        <svg width="400px" height="100px" xml:lang="fr"
+             xmlns="http://www.w3.org/2000/svg"
+             xmlns:xlink="http://www.w3.org/1999/xlink">
+        <title>Un exemple de SVG</title>
+        <desc>C'est un test!</desc>
+        <text
+            xml:space="preserve"
+            style="font-size:18px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:baron_neueblack;"
+            x="94.193359"
+            y="47.71706" 
+            textLength="200" lengthAdjust="spacingAndGlyphs">tiré d'un fichier <tspan fill="#229922">Inkscape</tspan>!</text>
+        <text
+            xml:space="preserve"
+            style="font-size:18px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:baron_neueblack;"
+            x="94.193359"
+            y="67.71706" 
+            textLength="200" lengthAdjust="spacingAndGlyphs">(ce n'est <tspan fill="red">qu'un</tspan> test)</text>
+        </svg>
+
+    </body>
+</html>

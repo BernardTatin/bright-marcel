@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Pragma" content="no-cache" />
+        <meta http-equiv="Expires" content="-1" />
+        <meta charset='utf-8' />
+    </head>
+    <body>
+        <p>Javascript n'est pas un langage orienté objet comme les autres! La preuve:</p>
+        <blockquote>
+            <p>JavaScript uses <em>prototypes</em> and don't have classes (and methods) like many object oriented languages. A JavaScript developer need to think in JavaScript.</p>
+            <p><em><a href="http://stackoverflow.com/questions/55611/javascript-private-methods">voir StackOverflow</a></em></p>
+        </blockquote>
+
+        <p>Voici un exemple de définition de classe:</p>
+        <pre>
+Session = function () {
+	this.root = DEFAULT_ROOT;
+	this.page = DEFAULT_PAGE;
+	this.footer = 'footer';
+	this.content = 'content';
+
+	this.private_getPage = function(url) {
+		return $.urlParam('page', url, DEFAULT_PAGE);
+	}
+
+	this.private_getRoot = function(url) {
+		return $.urlParam('root', url, DEFAULT_ROOT);
+	}
+
+	...
+
+	this.load = function() {
+		...
+	}
+
+	this.init = function() {
+		...
+	}
+};
+        </pre>
+        <p>Et voici un exemple d'utilisation:</p>
+        <pre>
+var session = new Session();
+session.init();
+session.load();
+        </pre>
+
+    </body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Pragma" content="no-cache" />
+        <meta http-equiv="Expires" content="-1" />
+        <meta charset='utf-8' />
+    </head>
+    <body>
+		<p>Voici quelques notes à propose de Git depuis la ligne de commande.</p>
+		<h2>les <em>tags</em></h2>
+		<p>La liste des <em>tags</em> s'obtient facilement avec :</p>
+		<pre>git tag</pre>
+		<p>L'ajout d'un tag se fait tout aussi simplement:</p>
+		<pre>git tag -a poems-1.0.1 -m 'blah bla'</pre>
+		<p>Et pour l'envoi des tags dans le dépôt :</p>
+		<pre>git push origin --tags</pre>
+		<p>Pour créer une branche <code>version2</code> depuis le tag <code>v2.0.0</code>:</p>
+		<pre>git checkout -b version2 v2.0.0</pre>
+		<h2><em>log</em></h2>
+		<p>La commande <code>git log</code> possède une option très intéressante : <code>--decorate=full</code> qui permet de visualiser un maximum de renseignents sur chaque commit, dont le tag correspondant.</p>
+    </body>
+</html>
+
