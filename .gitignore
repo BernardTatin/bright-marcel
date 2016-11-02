@@ -40,3 +40,5 @@ core
 /javascripts/main-purejs.min.js
 /stylesheets/core.min.css
 /css/reset.min.css
+
+*.sublime-*
