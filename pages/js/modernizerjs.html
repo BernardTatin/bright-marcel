@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Pragma" content="no-cache" />
+        <meta http-equiv="Expires" content="-1" />
+        <meta charset='utf-8' />
+    </head>
+    <body>
+        <p>Pour utiliser correctement <code>modernizer.js</code>, il faut que la page <em>HTML</em> soit structurée ainsi :</p>
+        <pre>
+&lt;html class="no-js"&gt;
+    &lt;head&gt;
+        &lt;script type="text/javascript" src=".../modernizr.js"&gt;&lt;/script&gt;
+        &lt;!--
+            Toutes les autres inclusions de scripts et de feuilles de
+            style doivent être placées <em><strong>après</strong></em>
+            l'inclusion de <code>mdernizr.js</code> - à moins
+            que vous ne maîtrisiez parfaitement le sujet...
+        --&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+    &lt;/body&gt;
+&lt;/html&gt;
+        </pre>
+        <p>La classe <code>nojs</code> sera remplacée par le script seulement si _JavaScript_ le permet ce qui autorise l'auteur d'agir en conséquence. </p>
+
+    </body>
+</html>
