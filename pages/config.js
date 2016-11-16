@@ -12,7 +12,7 @@ var config = (function () {
         COPYRIGHT: '(c) 2012-2016',
         TOC_TITLE: 'chapitres',
         // be carefull with that assignment, Eugene!
-        SITE_BASE: "pages",
+        SITE_BASE: 'pages',
 // don't touch that!
         DEFAULT_PAGE: DEFAULT_PAGE,
         DEFAULT_ROOT: DEFAULT_ROOT,
