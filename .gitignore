@@ -19,7 +19,7 @@ bin/
 *.mdb
 /.project
 pp.*
-/nbproject/private/
+/nbproject/
 javascripts/BULL/
 images/
 *.tgz
